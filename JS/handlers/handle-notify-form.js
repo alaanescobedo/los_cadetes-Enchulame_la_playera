@@ -5,7 +5,7 @@ export const initNotifyForm = (message) => {
   errorElement.classList.add("d-none");
   loaderElement.classList.remove("d-none");
 }
-export const showError = () => {
+export const showError = (error) => {
   console.log(error); // Para desarrollo
   errorElement.classList.remove("d-none");
 }
