@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3001'
+const BASE_URL = 'ttps://mockend.com/org/repo'
 
 export const ENDPOINT = {
   PRODUCTS: `${BASE_URL}/products`,
