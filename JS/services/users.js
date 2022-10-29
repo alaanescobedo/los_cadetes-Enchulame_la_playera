@@ -1,16 +1,16 @@
 import { ENDPOINT } from '../constants/index.js'
 import fetch from '../utils/fetch.js'
 
-export const mockLoginUser = ({ _data }) => fetch.get(`${ENDPOINT.USERS}/1`)
+export const mockLoginUser = (_data) => fetch.get(`${ENDPOINT.USERS}/1`)
 
 export const getUserById = (id) => fetch.get(`${ENDPOINT.USERS}/${id}`)
   .catch(err => { throw err })
 
-export const loginUser = ({ data }) => fetch.post(`${ENDPOINT.AUTH}/login`, {
+export const loginUser = ({ data }) => fetch.post(`${ENDPOINT.USERS}/login`, {
   data
 })
 
-export const registerUser = ({ data }) => fetch.post(`${ENDPOINT.AUTH}`, {
+export const registerUser = ({ data }) => fetch.post(`${ENDPOINT.USERS}`, {
   data
 }).catch(err => { throw err })
 
