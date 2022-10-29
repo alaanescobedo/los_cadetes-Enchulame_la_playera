@@ -1,4 +1,4 @@
-const BASE_URL = 'ttps://mockend.com/org/repo'
+const BASE_URL = 'https://mockend.com/alaanescobedo/db-server'
 
 export const ENDPOINT = {
   PRODUCTS: `${BASE_URL}/products`,
