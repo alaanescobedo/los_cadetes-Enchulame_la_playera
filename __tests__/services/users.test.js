@@ -1,6 +1,6 @@
 import { jest } from '@jest/globals';
 import { ENDPOINT } from '../../JS/constants/index.js';
-import { postUser, getUserById } from '../../JS/services/users.js';
+import { registerUser, getUserById } from '../../JS/services/users.js';
 import { ERROR_REASON } from '../constants/index.js';
 import mockFetch from '../../JS/utils/fetch.js';
 
@@ -26,20 +26,20 @@ describe('users', () => {
     jest.clearAllMocks();
   });
 
-  describe('postUser', () => {
+  describe('registerUser', () => {
     // Unitario
     it('Debe retornar un usuario', async () => {
-      const response = await postUser({ data: USER_DATA });
+      const response = await registerUser({ data: USER_DATA });
       expect(response).toStrictEqual(USER);
     });
     it('Debe retornar un error', async () => {
       mockFetch.post = jest.fn().mockImplementation(() => Promise.reject(ERROR_REASON));
-      await expect(postUser(USER_DATA)).rejects.toEqual(ERROR_REASON);
+      await expect(registerUser(USER_DATA)).rejects.toEqual(ERROR_REASON);
     });
 
     // Implentacion
     it('Debe llamar la funcion fetch con los parametros correctos', async () => {
-      await postUser({ data: USER_DATA });
+      await registerUser({ data: USER_DATA });
       expect(mockFetch.post).toHaveBeenCalledWith(`${ENDPOINT.USERS}`, { data: USER_DATA });
       expect(mockFetch.post).toHaveBeenCalledTimes(1);
     });

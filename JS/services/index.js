@@ -1,3 +1,5 @@
-export { default as products } from './productos.js'
-export { default as users } from './usuarios.js'
+export { default as products } from './products.js'
+export { default as users } from './users.js'
 export { default as emailMessage } from './emai-message.js'
+export { default as shoppingCart } from './local-cart.js'
+export { default as localUser } from './local-user.js'

@@ -35,6 +35,10 @@ h2 {
   font-family: "Bebas Neue", cursive;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 
 /* TODO: Recolocar en respectivo archivo */
 .banner {

@@ -20,7 +20,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./CSS/estilos.css" />
-
+    <script type="module" src="../JS/main.js" async></script>
+    
     <title>Home: Enchúlame la playera</title>
   </head>
 
@@ -108,7 +109,6 @@
 
     <!-- HOT SALE AND FIRE TEXT -->
     <section class="flex-grow-1">
-      
       <div class="row my-4 mx-0">
         <div class="col-12 m-auto text-center g-4">
           <div class="page__title-container">
@@ -118,44 +118,61 @@
         </div>
       </div>
 
-
-
       <!-- CARRUSEL -->
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
           <!-- BANNER -->
-          <div class="container-fluid border border-start-0 border-end-0 border-danger p-0">
-            <div class="row mx-0 banner oclusion ">
+          <div
+            class="container-fluid border border-start-0 border-end-0 border-danger p-0"
+          >
+            <div class="row mx-0 banner oclusion">
               <div class="col-12 col-sm-6 mx-auto text-center">
-                <img src="/assets/img/product-manga-1.png" class="img-fluid w-75" />
+                <img
+                  src="/assets/img/product-manga-1.png"
+                  class="img-fluid w-75"
+                />
               </div>
-              <div class="col-12 col-sm-6 py-4 text-center align-self-center bg-dark bg-opacity-50 bg-opacity-sm-none h-100 oclusion">
+              <div
+                class="col-12 col-sm-6 py-4 text-center align-self-center bg-dark bg-opacity-50 bg-opacity-sm-none h-100 oclusion"
+              >
                 <div class="page__title-container" style="max-height: 50vh">
-                  <h2 class="page__title text-tertiary-soft font-size-lg">Manga</h2>
+                  <h2 class="page__title text-tertiary-soft font-size-lg">
+                    Manga
+                  </h2>
                   <span class="page__title-span font-size-lg w-100">Manga</span>
                 </div>
               </div>
             </div>
           </div>
-        <!-- END-BANNER -->
+          <!-- END-BANNER -->
 
-        <!-- BOTONES -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-        <!-- END-BOTONES -->
+          <!-- BOTONES -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <!-- END-BOTONES -->
+        </div>
+        <!-- END-CARRUSEL -->
       </div>
-      <!-- END-CARRUSEL -->
-
-
-
-      </div>
-
     </section>
 
     <footer id="footer"></footer>
@@ -165,7 +182,5 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script type="module" src="./JS/navbar.js"></script>
-    <script type="module" src="./JS/footer.js"></script>
   </body>
 </html>

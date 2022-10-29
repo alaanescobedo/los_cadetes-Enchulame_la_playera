@@ -1,20 +1,20 @@
-import { emailMessage } from './services/index.js'
-import { getElement, getAllElements, validateInputs } from './utils/index.js'
+import { emailMessage } from '../services/index.js'
+import { getElement } from '../utils/index.js'
 
 const formElement = getElement('#formularioCont');
-const inputsElement = getAllElements('.needs-validation');
+// const inputsElement = getAllElements('.needs-validation');
 
 const submitForm = (event) => {
     //Prevenir recarga de la página
     event.preventDefault();
 
     // Validar el formulario
-    const isValid = validateInputs(Array.from(inputsElement));
-    if (!isValid) return;
+    const isValid = formElement.checkValidity();
+    if (!isValid) return formElement.classList.add('was-validated');
+    formElement.classList.remove('was-validated');
 
     // Capturar los datos del formulario
     const data = Object.fromEntries(new FormData(formElement));
-    emailMessage.send({ data })
 
     formElement.reset();
 }

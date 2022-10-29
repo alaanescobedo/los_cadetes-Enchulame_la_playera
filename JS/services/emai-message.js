@@ -1,15 +1,9 @@
+import { ENDPOINT } from "../constants/endpoints.js"
 import fetch from "../utils/fetch.js"
 
-export const sendEmail = async ({ data }) => {
-  try {
-    return await fetch.post({
-      url: "http://localhost:3000/email",
-      body: data
-    })
-  } catch (error) {
-    throw error
-  }
-}
+export const sendEmail = ({ data }) => fetch.post(`${ENDPOINT.EMAIL}`, {
+  body: data
+}).catch(err => { throw err })
 
 export default {
   send: sendEmail

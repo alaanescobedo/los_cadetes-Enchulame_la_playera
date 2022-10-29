@@ -1,9 +1,9 @@
-import { navLinks } from './constants/index.js';
+import { navLinks } from '../../constants/index.js';
 
-const loadFooter = () => {
+export const loadFooter = () => {
   const currentSite = navLinks.find((navLink) => window.location.pathname.toLowerCase() === navLink.href)
   const navbarHTML = `
-    <div class="footer ${currentSite.style}">
+    <div class="footer ${currentSite?.style ?? ''}">
       <div class="text-end py-2">
         <a href="#" type="button" class="btn btn-outline btn-md filter-invert"> <img class="img-fluid" src="/assets/icons/telegram.svg" alt=""></a>
               
@@ -18,4 +18,4 @@ const loadFooter = () => {
   document.getElementById('footer').innerHTML = navbarHTML;
 }
 
-loadFooter()
+export default loadFooter;

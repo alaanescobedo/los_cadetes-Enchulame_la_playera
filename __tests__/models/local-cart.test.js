@@ -1,4 +1,4 @@
-import { createCartItem } from '../../JS/model/local-cart.js';
+import { createCartItem } from '../../JS/models/local-cart.js';
 
 const PRODUCT = {
   id: 1,

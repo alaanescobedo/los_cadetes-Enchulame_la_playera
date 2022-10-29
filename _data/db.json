@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "MANGA",
+      "description": "Orange and Apple juice fresh and delicious",
+      "description_short": "Hoodie, con diseño anime/manga",
+      "price": "$300 mxn",
+      "category": "Category 1",
+      "img": "/assets/img/MANGA.png",
+      "stock": 20
+    },
+    {
+      "id": "2",
+      "name": "MANGA",
+      "description": "Orange and Apple juice fresh and delicious",
+      "description_short": "Hoodie, con diseño anime/manga",
+      "price": "$300 mxn",
+      "category": "Category 1",
+      "img": "/assets/img/MANGA.png",
+      "stock": 20
+    },
+    {
+      "name": "1231",
+      "description": "31",
+      "description_short": "123",
+      "price": "123",
+      "category": "13",
+      "img": "12",
+      "stock": 123,
+      "id": "1CLxkiM"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "fullName": "User 1",
+      "username": "xXMata_Viejitas3000Xx",
+      "email": "user1@email.com",
+      "password": "test",
+      "telephone": "1234567890"
+    }
+  ]
+}

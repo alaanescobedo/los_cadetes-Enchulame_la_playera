@@ -14,8 +14,14 @@
   }
 }
 
+.w-max-sm {
+  max-width: 576px;
+}
+.w-max-md {
+  max-width: 768px;
+}
 .w-max-lg {
-  max-width: 1000px;
+  max-width: 992px;
 }
 
 .filter-invert {
@@ -30,6 +36,8 @@
 }
 
 /* TODO: Establecer medidas definitivas */
+.font-size-xs { font-size: 1rem }
+.font-size-sm { font-size: 2rem }
 .font-size-md { font-size: 3rem }
 .font-size-lg { font-size: 4rem}
 .font-size-xl { font-size: 8rem }
