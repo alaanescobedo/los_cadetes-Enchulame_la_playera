@@ -5,36 +5,36 @@ export const navLinks = [
     style: 'home'
   },
   {
-    href: '/src/html/editor.html',
+    href: '/editor.html',
     label: 'Personaliza',
     style: 'editor'
   },
   {
-    href: '/src/html/productos.html',
+    href: '/productos.html',
     label: 'Productos',
     style: 'productos'
   },
   {
-    href: '/src/html/contactanos.html',
+    href: '/contactanos.html',
     label: 'Contactanos',
     style: 'contactanos'
   },
   {
-    href: '/src/html/about-us.html',
+    href: '/about-us.html',
     label: 'Nosotros',
     style: 'about-us'
   },
   {
-    href: '/src/html/login.html',
+    href: '/login.html',
     label: 'Login',
     style: 'login'
   },
   {
-    href: '/src/html/producto-info.html',
+    href: '/producto-info.html',
     style: 'producto'
   },
 ]
-export const excludeLinks = ['/src/html/login.html', '/src/html/register.html', '/src/html/index.html', '/src/html/producto-info.html', '/src/html/editor.html']
+export const excludeLinks = ['/login.html', '/register.html', '/index.html', '/producto-info.html', '/editor.html']
 export const pathIcons = {
   cart: {
     label: 'Carrito',
@@ -46,8 +46,8 @@ export const pathIcons = {
     path: '/assets/icons/person-circle.svg',
     list: {
       offline: [
-        `<li><a class="dropdown-item" href="/src/html/login.html">Iniciar sesión</a></li>`,
-        `<li><a class="dropdown-item" href="/src/html/register.html">Registrate</a></li>`
+        `<li><a class="dropdown-item" href="/login.html">Iniciar sesión</a></li>`,
+        `<li><a class="dropdown-item" href="/register.html">Registrate</a></li>`
       ],
       online: [
         `<li><button class="btn dropdown-item" id="btn-logout">Cerrar sesión</button></li>`,
