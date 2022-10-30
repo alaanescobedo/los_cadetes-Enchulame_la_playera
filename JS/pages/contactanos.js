@@ -1,4 +1,3 @@
-import { emailMessage } from '../services/index.js'
 import { getElement } from '../utils/index.js'
 
 const formElement = getElement('#formularioCont');

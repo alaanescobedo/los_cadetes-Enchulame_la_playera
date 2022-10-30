@@ -4,6 +4,10 @@ import { handleSubmitForm, showError, hideLoader, initNotifyForm } from "../hand
 
 const formElement = document.getElementById("login-form");
 
+const verifyIfLogged = () => {
+  const user = getLocalUser();
+  if (user) location.href = "/index.html";
+}
 
 const submitRegister = async (e) => {
   try {
@@ -26,9 +30,5 @@ const submitRegister = async (e) => {
   }
 }
 
-const verifyIfLogged = () => {
-  const user = getLocalUser();
-  if (user) location.href = "/index.html";
-}
-formElement.addEventListener('submit', submitRegister);
 verifyIfLogged();
+formElement.addEventListener('submit', submitRegister);
