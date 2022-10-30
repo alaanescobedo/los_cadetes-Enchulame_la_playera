@@ -1,22 +1,23 @@
 import { jest } from '@jest/globals';
-import { ENDPOINT } from '../../JS/constants/index.js';
+import { ENDPOINT } from '../../src/JS/constants/index.js';
 import {
   postProduct,
   getAllProducts,
   getProductById,
   getProductByCategory
-} from '../../JS/services/products';
-import mockFetch from '../../JS/utils/fetch.js';
+} from '../../src/JS/services/products';
+import mockFetch from '../../src/JS/utils/fetch.js';
 import { ERROR_REASON } from '../constants/index.js';
 
 const MY_ID = 1
 const PRODUCT_DATA = {
-  NAME: 'Test',
-  PRICE: 100,
-  DESCRIPTION: 'test',
-  IMG: 'https://test.com',
-  STOCK: 100,
-  CATEGORY: 'test'
+  name: 'Test',
+  price: 100,
+  description: 'test',
+  description_short: 'test',
+  img: 'https://test.com',
+  stock: 100,
+  category: 'test'
 }
 const product = {
   id: MY_ID,
@@ -42,7 +43,7 @@ describe('products service', () => {
     });
     it('Debe retornar un error', async () => {
       mockFetch.post = jest.fn().mockImplementation(() => Promise.reject(`${ERROR_REASON}`));
-      await expect(postProduct(PRODUCT_DATA)).rejects.toEqual(`${ERROR_REASON}`);
+      await expect(postProduct({ data: PRODUCT_DATA })).rejects.toEqual(`${ERROR_REASON}`);
     });
 
     // Implentacion
@@ -71,7 +72,7 @@ describe('products service', () => {
     // Implentacion
     it('Debe llamar la funcion fetch con los parametros correctos', async () => {
       await getAllProducts();
-      expect(mockFetch.get).toHaveBeenCalledWith(`${ENDPOINT.PRODUCTS}`);
+      expect(mockFetch.get).toHaveBeenCalledWith(`${ENDPOINT.PRODUCTS}?limit=10`);
       expect(mockFetch.get).toHaveBeenCalledTimes(1);
     });
   });

@@ -1,8 +1,8 @@
 import { jest } from '@jest/globals';
-import { ENDPOINT } from '../../JS/constants/index.js';
-import { registerUser, getUserById } from '../../JS/services/users.js';
+import { ENDPOINT } from '../../src/JS/constants/index.js';
+import { registerUser, getUserById } from '../../src/JS/services/users.js';
 import { ERROR_REASON } from '../constants/index.js';
-import mockFetch from '../../JS/utils/fetch.js';
+import mockFetch from '../../src/JS/utils/fetch.js';
 
 const MY_ID = 1
 const USER_DATA = {
@@ -40,7 +40,7 @@ describe('users', () => {
     // Implentacion
     it('Debe llamar la funcion fetch con los parametros correctos', async () => {
       await registerUser({ data: USER_DATA });
-      expect(mockFetch.post).toHaveBeenCalledWith(`${ENDPOINT.USERS}`, { data: USER_DATA });
+      expect(mockFetch.post).toHaveBeenCalledWith(`${ENDPOINT.USERS}`, { body: USER_DATA });
       expect(mockFetch.post).toHaveBeenCalledTimes(1);
     });
   });

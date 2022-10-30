@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals';
-import { get, post } from '../../JS/utils/fetch.js';
+import { get, post } from '../../src/JS/utils/fetch.js';
 
 const METHODS = {
   GET: 'GET',

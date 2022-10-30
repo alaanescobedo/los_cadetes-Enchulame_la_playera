@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals';
-import { getElement, getAllElements } from '../../JS/utils/getElements.js';
+import { getElement, getAllElements } from '../../src/JS/utils/getElements.js';
 
 describe('getElements', () => {
 

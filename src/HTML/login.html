@@ -11,8 +11,8 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="../CSS/estilos.css" />
-    <script type="module" src="../JS/pages/register.js" defer></script>
+    <link rel="stylesheet" href="/src/CSS/estilos.css" />
+    <script type="module" src="../JS/pages/login.page.js" defer></script>
     <script type="module" src="../JS/main.js" async></script>
 
     <title>Log-in Enchúlame la playera(:</title>
@@ -27,9 +27,9 @@
         <!-- TITLE -->
         <div class="row">
           <div class="page__title-container text-center">
-            <h1 class="page__title text-secondary font-size-sm">Registrate</h1>
+            <h1 class="page__title text-secondary font-size-sm">Ingresar</h1>
             <span class="page__title-span w-100 text-secondary font-size-sm"
-              >Registrate</span
+              >Ingresar</span
             >
           </div>
         </div>
@@ -49,32 +49,10 @@
         >
           Occurrio un error tratanto de iniciar sesion
         </div>
-        <!-- DISPLAY ERRORS -->
+        <!-- DISPLAY STATUS -->
         <!-- FORM -->
         <form class="row g-4 needs-validation" id="login-form" novalidate>
           <!-- INPUTS -->
-          <div class="col-12">
-            <input
-              type="text"
-              class="form-control inputs"
-              id="fullName"
-              name="fullName"
-              placeholder="Nombre Completo"
-              required
-            />
-            <div class="invalid-feedback">Campo obligatorio</div>
-          </div>
-          <div class="col-12">
-            <input
-              type="text"
-              class="form-control inputs"
-              id="username"
-              name="username"
-              placeholder="Username"
-              required
-            />
-            <div class="invalid-feedback">Campo obligatorio</div>
-          </div>
           <div class="col-12">
             <input
               type="email"
@@ -97,28 +75,6 @@
             />
             <div class="invalid-feedback">Campo obligatorio</div>
           </div>
-          <div class="col-12">
-            <input
-              type="text"
-              class="form-control inputs"
-              id="confirm-password"
-              name="password"
-              placeholder="Confirmar Password"
-              required
-            />
-            <div class="invalid-feedback">Campo obligatorio</div>
-          </div>
-          <div class="col-12">
-            <input
-              type="tel"
-              class="form-control inputs"
-              id="phone"
-              name="phone"
-              placeholder="Teléfono"
-              required
-            />
-            <div class="invalid-feedback">Campo obligatorio</div>
-          </div>
           <!-- INPUTS -->
 
           <!-- LOGIN -->
@@ -126,47 +82,47 @@
             <button
               class="btn btn-secondary w-100 border border-2 border border-dark fw-bold"
             >
-              Registrate
+              Iniciar sesión
             </button>
           </div>
           <!-- LOGIN -->
 
           <!-- FORGOT PASSWORD -->
-          <!-- <div class="col-12 text-end">
+          <div class="col-12 text-end">
             <a href="#" class="text-white-50 link-light fs-6"
               >¿Olvidaste tu contraseña?</a
             >
-          </div> -->
+          </div>
           <!-- FORGOT PASSWORD -->
         </form>
         <!-- FORM -->
 
-        <!-- <hr class="my-3" /> -->
+        <hr class="my-3" />
 
         <!-- THIRD PARTY -->
-        <!-- <div class="row row-cols-1 gap-2 mx-0">
+        <div class="row row-cols-1 gap-2 mx-0">
           <button
             class="btn btn-outline-dark border bg-black d-flex align-items-center justify-content-center text-white-50 link-light"
           >
             <img
               class="filter-invert px-2"
-              src="/assets/icons/google.svg"
+              src="/public/assets/icons/google.svg"
               alt=""
             />
             Google
           </button>
-        </div> -->
+        </div>
         <!-- THIRD PARTY -->
 
-        <!-- LOGIN -->
+        <!-- REGISTER -->
         <div class="row mt-4">
           <div class="col-12 text-center">
-            <a href="/HTML/login.html" class="text-white-50 link-light fs-6"
-              >¿Ya tienes una cuenta?
-            </a>
+            <a href="/src/HTML/register.html" class="text-white-50 link-light fs-6"
+              >¿No tienes una cuenta?</a
+            >
           </div>
         </div>
-        <!-- LOGIN -->
+        <!-- REGISTER -->
       </div>
       <!-- LOGIN PxANEL -->
     </main>

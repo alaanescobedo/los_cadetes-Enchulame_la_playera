@@ -17,6 +17,6 @@ export const createLocalProduct = (product) => ({
   description_short: product.description_short,
   price: product.price,
   category: product.category,
-  img: product.image,
+  img: product.img,
   stock: Number(product.stock)
 })

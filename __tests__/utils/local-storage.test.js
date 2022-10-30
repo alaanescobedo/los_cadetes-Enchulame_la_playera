@@ -4,7 +4,7 @@ import {
   readLocalStorage,
   removeLocalStorage,
   clearLocalStorage
-} from '../../JS/utils/local-storage.js';
+} from '../../src/JS/utils/local-storage.js';
 
 jest.spyOn(Storage.prototype, 'setItem');
 jest.spyOn(Storage.prototype, 'getItem');

@@ -6,20 +6,23 @@ import {
   getTotalPrice,
   getTotalPriceByProduct,
   removeCartItem
-} from '../../JS/services/local-cart.js';
-import mockLocalStorage from '../../JS/utils/local-storage.js';
+} from '../../src/JS/services/local-cart.js';
+import mockLocalStorage from '../../src/JS/utils/local-storage.js';
 
 const PRODUCT = {
   id: 1,
   name: 'Producto 1',
   price: 100,
-  image: 'https://picsum.photos/200/300',
-  description: 'Descripción del producto 1'
+  img: 'https://picsum.photos/200/300',
+  description: 'Descripción del producto 1',
+  description_short: 'Descripción corta del producto 1',
 };
 const CART_ITEM = {
   ...PRODUCT,
   quantity: 1
 }
+
+
 
 describe('local-cart.js', () => {
 
@@ -33,16 +36,16 @@ describe('local-cart.js', () => {
 
   describe('addCartItem', () => {
     it('Debería agregar un producto al carrito si esta vacio', () => {
-      mockLocalStorage.read = jest.fn().mockImplementation(() => null);
+      mockLocalStorage.read = jest.fn()
       addCartItem(PRODUCT);
-      expect(mockLocalStorage.read).toHaveBeenCalledTimes(1);
-      expect(mockLocalStorage.write).toHaveBeenCalledTimes(1);
+      expect(getCartItems()).toEqual([CART_ITEM]);
     });
   });
   describe('getCartItems', () => {
-    it('Debería obtener obtener el carro vacio', () => {
+    it('Debería obtener obtener el carro con 1 elemento', () => {
+      addCartItem(PRODUCT);
       const cart = getCartItems();
-      expect(cart).toEqual([]);
+      expect(cart).toEqual([CART_ITEM]);
     });
   });
   describe('getTotalPrice', () => { });

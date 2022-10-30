@@ -3,11 +3,11 @@ import { createCartItem } from '../models/local-cart.js'
 import { STORAGE_KEYS } from '../constants/storage-keys.js'
 
 export const addCartItem = (product) => {
-  let cart = readLocalStorage(STORAGE_KEYS.CART) || [];
-
-  const item = cart.find(item => item.id === product.id);
+  let cart = readLocalStorage(STORAGE_KEYS.CART) ?? [];
+  const item = cart.find(item => item.id === product.id) ?? null;
   if (item === null) cart.push(createCartItem(product));
   else {
+    console.log({ item });
     cart.push(createCartItem(product, item.quantity + 1));
   }
   writeLocalStorage(STORAGE_KEYS.CART, cart)

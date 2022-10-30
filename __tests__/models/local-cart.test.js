@@ -1,11 +1,11 @@
-import { createCartItem } from '../../JS/models/local-cart.js';
+import { createCartItem } from '../../src/JS/models/local-cart.js';
 
 const PRODUCT = {
   id: 1,
   name: 'Producto 1',
   price: 100,
   img: 'https://picsum.photos/200/300',
-  description: 'Descripción del producto 1'
+  description_short: 'Descripción del producto 1'
 }
 
 describe('local-cart.js', () => {
