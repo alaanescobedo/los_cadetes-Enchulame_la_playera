@@ -34,7 +34,7 @@ export const loadNavbar = (user) => {
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <img src="/assets/icons/burger.svg" class="fs-1 filter-invert" />
+      <img src="${new URL("/public/assets/icons/burger.svg",import.meta.url)}" class="fs-1 filter-invert" />
     </button>
 
     <!-- LINKS DE LA NAV -->
