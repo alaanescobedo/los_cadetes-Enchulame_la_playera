@@ -38,12 +38,12 @@ export const excludeLinks = ['/login.html', '/register.html', '/index.html', '/p
 export const pathIcons = {
   cart: {
     label: 'Carrito',
-    path: '/assets/icons/cart-fill.svg',
+    path: '/public/assets/icons/cart-fill.svg',
     url: '#'
   },
   profile: {
     label: 'Usuario',
-    path: '/assets/icons/person-circle.svg',
+    path: '/public/assets/icons/person-circle.svg',
     list: {
       offline: [
         `<li><a class="dropdown-item" href="/login.html">Iniciar sesión</a></li>`,
