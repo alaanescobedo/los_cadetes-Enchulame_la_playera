@@ -7,11 +7,11 @@ export const getUserById = (id) => fetch.get(`${ENDPOINT.USERS}/${id}`)
   .catch(err => { throw err })
 
 export const loginUser = ({ data }) => fetch.post(`${ENDPOINT.USERS}/login`, {
-  data
+  body: data
 })
 
 export const registerUser = ({ data }) => fetch.post(`${ENDPOINT.USERS}`, {
-  data
+  body: data
 }).catch(err => { throw err })
 
 export default {

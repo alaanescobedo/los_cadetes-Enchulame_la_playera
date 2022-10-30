@@ -1,6 +1,5 @@
 import { setLocalUser, getLocalUser } from "../services/local-user.js";
 import { registerUser } from "../services/users.js";
-import { } from "../handlers/handle-notify-form.js";
 import { handleSubmitForm, showError, hideLoader, initNotifyForm } from "../handlers/index.js";
 
 const formElement = document.getElementById("login-form");
