@@ -6,10 +6,7 @@ export const addCartItem = (product) => {
   let cart = readLocalStorage(STORAGE_KEYS.CART) ?? [];
   const item = cart.find(item => item.id === product.id) ?? null;
   if (item === null) cart.push(createCartItem(product));
-  else {
-    console.log({ item });
-    cart.push(createCartItem(product, item.quantity + 1));
-  }
+  else cart = cart.map(item => item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item);
   writeLocalStorage(STORAGE_KEYS.CART, cart)
 }
 export const removeCartItem = (id) => {

@@ -1,7 +1,7 @@
 const errorElement = document.getElementById("notify-form-error");
 const loaderElement = document.getElementById("notify-form-loader");
 
-export const initNotifyForm = (message) => {
+export const initNotifyForm = () => {
   errorElement.classList.add("d-none");
   loaderElement.classList.remove("d-none");
 }

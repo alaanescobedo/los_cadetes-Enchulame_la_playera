@@ -3,7 +3,6 @@ export const readLocalStorage = (key) => JSON.parse(localStorage.getItem(key));
 export const removeLocalStorage = (key) => localStorage.removeItem(key);
 export const clearLocalStorage = () => localStorage.clear();
 
-
 export default {
   write: writeLocalStorage,
   read: readLocalStorage,

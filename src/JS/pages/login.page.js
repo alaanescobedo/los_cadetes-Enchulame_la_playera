@@ -1,6 +1,5 @@
 import { setLocalUser, getLocalUser } from "../services/local-user.js";
 import { mockLoginUser as loginUser } from "../services/users.js";
-import { } from "../handlers/handle-notify-form.js";
 import { handleSubmitForm, showError, hideLoader, initNotifyForm } from "../handlers/index.js";
 
 const formElement = document.getElementById("login-form");
@@ -15,7 +14,8 @@ const submitRegister = async (e) => {
     // Enviar Datos al Servidor
     const userData = await loginUser({ data });
     // Guardar Usuario en LocalStorage
-    setLocalUser(userData);
+
+    localStorage.setItem('current_user', JSON.stringify(userData));
     // Redireccionar a la Pagina de Inicio
     location.href = "/index.html";
   } catch (err) {

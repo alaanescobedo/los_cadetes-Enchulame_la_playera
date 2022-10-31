@@ -10,7 +10,7 @@ export const get = async (url, { headers = {} } = {}) => {
 export const post = async (url, { body, headers = {} } = {}) => {
   const requestOptions = {
     method: "POST",
-    headers:{
+    headers: {
       "Content-Type": "application/json",
       ...headers
     },

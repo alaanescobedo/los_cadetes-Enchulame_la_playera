@@ -1,4 +1,4 @@
-export const generateCardProduct = (id, { name, by, img, price, url }) => {
+export const generateCardProduct = (selector, { id, name, by, img, price }) => {
   const item = `
   <div class="col d-flex flex-column">
     <div class="flex flex-grow-1">
@@ -10,12 +10,12 @@ export const generateCardProduct = (id, { name, by, img, price, url }) => {
     </div>
     <div>
       <p class="fw-bold fs-3 m-0 my-1">${price}</p>
-      <a href="${url}" class="btn my-3 btn-outline-secondary "> 
+      <a href="/producto-info.html?id=${id}" class="btn my-3 btn-outline-secondary "> 
         ✧ ¿Deseas ver mas detalles? ✦
       </a>
     </div>
   </div>
   `
 
-  document.querySelector(id).innerHTML += item
+  document.querySelector(selector).innerHTML += item
 }

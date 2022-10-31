@@ -1,6 +1,4 @@
-import { getElement } from '../utils/index.js'
-
-const formElement = getElement('#formularioCont');
+const formElement = document.getElementById('formularioCont');
 // const inputsElement = getAllElements('.needs-validation');
 
 const submitForm = (event) => {
@@ -10,6 +8,7 @@ const submitForm = (event) => {
     // Validar el formulario
     const isValid = formElement.checkValidity();
     if (!isValid) return formElement.classList.add('was-validated');
+
     formElement.classList.remove('was-validated');
 
     // Capturar los datos del formulario
