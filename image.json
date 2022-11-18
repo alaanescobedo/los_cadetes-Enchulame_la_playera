@@ -1,0 +1,459 @@
+[
+    {
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/wjBFQrRd/ACZINO-NEGRA.png",
+        "name": "ACZINO NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/pL1CGBK5/ALEMAN-BLANCA.png",
+        "name": "ALEMAN BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/QM2bsx4X/ALEMAN-NEGRO.png",
+        "name": "ALEMAN NEGRO",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/hGzrH70y/ANGELA-BLANCA.png",
+        "name": "ANGELA BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/PJhQpVn9/ANGELA-NEGRA.png",
+        "name": "ANGELA NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/B62Cv9k2/ARIANA-BLANCA.png",
+        "name": "ARIANA BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/L5TBzkHX/ARIANA-NEGRA.png",
+        "name": "ARIANA NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/tCWBgP0L/BABO-BLANCA.png",
+        "name": "BABO BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/9QB1dhQb/BABO-NEGRA.png",
+        "name": "BABO NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/B6RCSZmS/BAD-BUNNY-BLANCA.png",
+        "name": "BAD BUNNY BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/1X6rfxdp/BAD-BUNNY-NEGRA.png",
+        "name": "BAD BUNNY NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/NGr4NT05/BELINDA-BLANCA.png",
+        "name": "BELINDA BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/02RChQ6Z/BELINDA-NEGRA.png",
+        "name": "BELINDA NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/yNYjnbJH/BETTY-LA-FEA-BLANCA.png",
+        "name": "BETTY LA FEA BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/FRYZXkgC/BETTY-LA-FEA-NEGRA.png",
+        "name": "BETTY LA FEA NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/jjgX14NJ/BIG-TIME-RUSH-BLANCA.png",
+        "name": "BIG TIME RUSH BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/J4NQ8LZ8/BIG-TIME-RUSH-NEGRA.png",
+        "name": "BIG TIME RUSH NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/cJH7ftj1/BILLI-EILIESH-BLANCA.png",
+        "name": "BILLI EILIESH BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/XvzfL7Sf/BILLI-EILISH-NEGRA.png",
+        "name": "BILLI EILISH NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/NM21zqBW/BOB-MARLEY-BLANCA.png",
+        "name": "BOB MARLEY BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/WzRMRW4t/BOB-MARLEY-NEGRA.png",
+        "name": "BOB MARLEY NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/ZY38PSfN/BTS-BLANCA.png",
+        "name": "BTS BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/X7bwQzhz/BTS-NEGRA.png",
+        "name": "BTS NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/L5zjmtqD/CAMILA-CABELLO-BLANCA.png",
+        "name": "CAMILA CABELLO BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/QxJcPqZx/CAMILA-CABELLO-NEGRA.png",
+        "name": "CAMILA CABELLO NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/x1jLSb9G/CANCERBERO-BLANCA.png",
+        "name": "CANCERBERO BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/L8yL46sc/CANCERBERO-NEGRA.png",
+        "name": "CANCERBERO NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/KYRL1SkR/CHALINO-BLANCA.png",
+        "name": "CHALINO BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/Y9FWx6x7/CHALINO-NEGRA.png",
+        "name": "CHALINO NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/PrTwm8vG/CHARLES-ANS-BLANCA.png",
+        "name": "CHARLES ANS BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/gks64k3x/CHARLES-ANS-NEGRA.png",
+        "name": "CHARLES ANS NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/Y21FGx9f/CRISTIANO-RONALDO-BLANCA.png",
+        "name": "CRISTIANO RONALDO BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/C5Hn3wt6/CUCO-BLANCA.png",
+        "name": "CUCO BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/3xw0q5Zn/CUCO-NEGRA.png",
+        "name": "CUCO NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/SxtYFTTq/DUA-LIPA-BLANCA.png",
+        "name": "DUA LIPA BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/4377J6qc/DUA-LIPA-NEGRA.png",
+        "name": "DUA LIPA NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/Dz9WmW3M/ED-SHEERAN-BLANCA.png",
+        "name": "ED SHEERAN BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/85L7v11P/ED-SHEERAN-NEGRA.png",
+        "name": "ED SHEERAN NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/vTzDP3gJ/EL-MARIANA-BLANCA.png",
+        "name": "EL MARIANA BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/3rCyJJSt/EL-MARIANA-NEGRA.png",
+        "name": "EL MARIANA NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/FsrYf5wN/FLANS-BLANCA.png",
+        "name": "FLANS BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/Dyx8LpKs/FLANS-NEGRA.png",
+        "name": "FLANS NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/1344H09d/GERA-MX-BLANCA.png",
+        "name": "GERA MX BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/1zqXx9Vc/GERA-MX-NEGRA.png",
+        "name": "GERA MX NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/cLjC5KCL/GERARDO-ORTIZ-BLANCA.png",
+        "name": "GERARDO ORTIZ BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/26N6rP4p/GERARDO-ORTIZ-NEGRA.png",
+        "name": "GERARDO ORTIZ NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/qqkvCybj/HARRY-STYLES-BLANCA.png",
+        "name": "HARRY STYLES BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/NFpf8FZY/HARRY-STYLES-NEGRA.png",
+        "name": "HARRY STYLES NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/CLrxzZjs/ICE-CUBE-BLANCA.png",
+        "name": "ICE CUBE BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/05fQ1Xj3/JADEN-SMITH-BLANCA.png",
+        "name": "JADEN SMITH BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/nhsc7H2b/JADEN-SMITH-NEGRA.png",
+        "name": "JADEN SMITH NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/pLgVJgc9/JENNY-RIVERA-BLANCA.png",
+        "name": "JENNY RIVERA BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/mrCLX8Km/JENNY-RIVERA-NEGRA.png",
+        "name": "JENNY RIVERA NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/XJWVT9b4/JORGE-NEGRETE-BLANCA.png",
+        "name": "JORGE NEGRETE BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/MTYWxX6R/JORGE-NEGRETE-NEGRA.png",
+        "name": "JORGE NEGRETE NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/VvLzN1vh/JOS-JOS-BLANCA.png",
+        "name": "JOSE JOSE BLANCA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    },{
+        "category": "1",
+        "colors": "2",
+        "img": "https://i.postimg.cc/T17fLSW3/JOS-JOS-NEGRA.png",
+        "name": "JOSE JOSE NEGRA",
+        "price": "299",
+        "sizes": "1",
+        "stock": "5"
+    }
+]
